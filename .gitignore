@@ -130,3 +130,5 @@ dmypy.json
 
 # Dataset
 dataset/
+validation
+validation.zip
