@@ -1,19 +1,23 @@
-This directory includes a few sample datasets to get you started.
+# APS360_Final_Project
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://developers.google.com/machine-learning/crash-course/california-housing-data-description
+Data Cleaning Process
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+Starting with trousers:
+1. Get SHOP images with trousers (go through all items)
+2. Make sure the items landmarks are all present (1 or 2) for every 3rd index and the viewpoints are no wear or frontal
+3. Crop the image to the bounding box of the trouser
+4. Use edge detection from OpenCV Canny to generate a "doodle" of the image
+5. Resize the images to 100x200
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
 
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
+Project Progress
 
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+TODO:
+1. Write Data Processing: Sarhad
+2. Baseline Model: Zeng & Gurm
+3. Primary Model: Naveed (everyone else joins)
+4. Results
+5. Project Progress
+6. Introduction
+
+Project Progress Completed
