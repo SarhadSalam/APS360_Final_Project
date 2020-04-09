@@ -130,7 +130,7 @@ dmypy.json
 
 # Dataset
 dataset/
-validation
+
 validation.zip
 sample_data/trousers/*
 dataset/test
