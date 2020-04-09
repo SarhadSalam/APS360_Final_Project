@@ -133,3 +133,5 @@ dataset/
 validation
 validation.zip
 sample_data/trousers/*
+dataset/test
+dataset/test.zip
